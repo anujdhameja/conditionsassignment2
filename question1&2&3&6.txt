@@ -1,0 +1,116 @@
+Q1. Find the output for this code. Let input:- 2 3 6
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int x;
+
+cout << "Enter first number\n";
+
+cin >> x; // user will give ‘x’ a value.
+
+int y, m;
+
+cout << "Enter second number and value for taking modulus\n";
+
+cin >> y >> m; // user will give ‘y’ a value.
+
+int Z = (x * y) % m;
+
+cout << "Output is: " << Z;
+
+}
+
+Answer 1) 
+Enter first number
+2
+Enter second number and value for taking modulus
+3
+6
+Output is: 0
+
+Q2. Find the output for this code. Let input:- 3 2
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int x;
+
+cout<<"Enter first number\n";
+
+cin>>x; // user will give 'x' a value.
+
+int y;
+
+cout<<"Enter second number\n";
+
+cin>>y; // user will give 'y' a value.
+
+cout<<(x!=y)<<" "<<(x>=y);
+
+}
+
+Answer 2)
+Enter first number
+3
+Enter second number
+2
+1 1
+
+Q3. Find the output for this code. Let input:- 2 3
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int x,y;
+
+cin>>x>>y;
+
+x+=y;
+
+x-=y;
+
+x%=y;
+
+cout<<x;
+
+}
+
+Answer 3)
+2
+3
+2
+
+Q6. Find the output of the below code
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int i = ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+
+cout<<i;
+
+}
+
+Answer 6)
+49
